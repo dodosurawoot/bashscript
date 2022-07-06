@@ -60,7 +60,7 @@ wget http://packages.irontec.com/public.key -q -O - | apt-key add -
 
 # Install the package
 apt-get update
-apt-get install sngrep
+apt-get install sngrep -y
 
 #install 3CXPBX
 apt autoremove -y
